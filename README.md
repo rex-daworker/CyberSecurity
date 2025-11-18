@@ -9,4 +9,4 @@
 | 18.11.2025 | 1hr | Lab: Authentication | Completed 2 labs |
 | 18.11.2025 | 1hr | Lab: SQL Injection | Completed 2 labs |
 | 18.11.2025 | 1hr | Lab: Access Control | Completed 2 labs |
-| 18.11.2025 | 5mins |  | Completed 2 labs |
+| 18.11.2025 | 45mins | Short Lab Reflection | Reflection |
