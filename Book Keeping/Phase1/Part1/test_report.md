@@ -41,6 +41,15 @@ Identify vulnerabilities in registration and authentication flows of the Booking
 - Limited to local testing (`localhost:8000`)  
 - No access to production logs or backend code
 
+1.docker setup and run compose yml file
+<img width="1279" height="708" alt="Screenshot 2025-12-01 at 22 46 04" src="https://github.com/user-attachments/assets/17cfcd82-7f05-445d-ad73-486ce5452374" />
+
+2.docker setup and run the compose yml file in browser
+<img width="1280" height="800" alt="Screenshot 2025-12-01 at 22 46 38" src="https://github.com/user-attachments/assets/acd87277-3b0f-4dfb-93af-8f909ae94ac2" />
+
+3.Exploring the database schema and viewing user data
+<img width="1067" height="248" alt="Screenshot 2025-12-01 at 23 44 24" src="https://github.com/user-attachments/assets/7d49e694-7322-4bbe-ad60-af9794840042" />
+
 ---
 
 ## 2️⃣ Executive Summary
@@ -88,7 +97,15 @@ The Booking System Phase 1 contains critical vulnerabilities in registration, au
 To identify vulnerabilities in the Booking System Phase 1 using automated scanning tools.
 
 **Report file:**  
-📁 `zap_report_round1.md` — attached in GitHub repository
+
+Purpose:
+
+Attach or link your OWASP ZAP scan results.
+
+http://localhost:8000/
+📁 <img width="1067" height="248" alt="Screenshot 2025-12-01 at 23 44 24" src="https://github.com/user-attachments/assets/10051b16-0a2e-4f37-ba08-1c30327c27fb" />
+
+
 
 **Scan details:**
 - Manual Explore + Spider + Active Scan
@@ -96,4 +113,8 @@ To identify vulnerabilities in the Booking System Phase 1 using automated scanni
 - ZAP version: 2.16.1
 - Risk levels: High, Medium, Low
 - Alerts: SQL injection, missing headers, broken authentication
+
+zap screen
+<img width="1275" height="778" alt="Screenshot 2025-12-02 at 0 04 31" src="https://github.com/user-attachments/assets/261a4625-e8f9-4f24-8752-9ba42ffa5fbf" />
+
 
