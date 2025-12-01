@@ -11,3 +11,5 @@
 | 18.11.2025 | 1hr | Lab: SQL Injection | Completed 2 labs |
 | 18.11.2025 | 1hr | Lab: Access Control | Completed 2 labs |
 | 18.11.2025 | 45mins | Short Lab Reflection | Reflection |
+| 01–02.12.25| 6     | Setup, testing, ZAP | Found SQLi, broken login, weak security |
+| 02.12.25   | 1     | Report & upload     | Reports finalized, pushed to GitHub
