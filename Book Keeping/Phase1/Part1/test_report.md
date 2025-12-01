@@ -1,91 +1,99 @@
-# 1️⃣ Introduction
+
+
+# 🛡️ Booking System Phase 1 — Penetration Test Report
+
+---
+
+## 1️⃣ Introduction
 
 **Tester(s):**  
-- Name:  
+Name: Rex Odomero Oghenerobo
 
 **Purpose:**  
-- Describe the purpose of this test (e.g., identify vulnerabilities in registration and authentication flows).
+Identify vulnerabilities in registration and authentication flows of the Booking System Phase 1 web application.
 
 **Scope:**  
-- Tested components:  
-- Exclusions:  
-- Test approach: Gray-box / Black-box / White-box
+- **Tested components:**  
+  - Registration and login forms  
+  - Database schema (`booking_users`, `booking_reservations`, `booking_resources`)  
+  - Frontend session handling  
+  - OWASP ZAP scan of all endpoints
+
+- **Exclusions:**  
+  - Admin panel (not accessible)  
+  - External APIs (none present)
+
+- **Test approach:**  
+  Gray-box — database access and source code visibility via Docker, but no backend code modification.
 
 **Test environment & dates:**  
-- Start:  
-- End:  
-- Test environment details (OS, runtime, DB, browsers):
+- **Start:** 01 December 2025  
+- **End:** 02 December 2025  
+- **Environment:**  
+  - OS: macOS Monterey  
+  - Runtime: Docker Compose  
+  - DB: PostgreSQL 13  
+  - Browser: Firefox Developer Edition  
+  - Proxy: OWASP ZAP 2.16.1
 
 **Assumptions & constraints:**  
-- e.g., credentials provided, limited time, etc.
+- Credentials created manually via registration  
+- Limited to local testing (`localhost:8000`)  
+- No access to production logs or backend code
 
 ---
 
-# 2️⃣ Executive Summary
+## 2️⃣ Executive Summary
 
-**Short summary (1-2 sentences):**  
+**Short summary:**  
+The Booking System Phase 1 contains critical vulnerabilities in registration, authentication, and session handling. Login is broken, and passwords are stored in plaintext.
 
-**Overall risk level:** (Low / Medium / High / Critical)
+**Overall risk level:** 🔴 **High**
 
-**Top 5 immediate actions:**  
-1.  
-2.  
-3.  
-4.  
-5.  
-
----
-
-# 3️⃣ Severity scale & definitions
-
-|  **Severity Level**  | **Description**                                                                                                              | **Recommended Action**           |
-| -------------------- | ---------------------------------------------------------------------------------------------------------------------------- | -------------------------------- |
-|      🔴 **High**     | A serious vulnerability that can lead to full system compromise or data breach (e.g., SQL Injection, Remote Code Execution). | *Immediate fix required*         |
-|     🟠 **Medium**    | A significant issue that may require specific conditions or user interaction (e.g., XSS, CSRF).                              | *Fix ASAP*                       |
-|      🟡 **Low**      | A minor issue or configuration weakness (e.g., server version disclosure).                                                   | *Fix soon*                       |
-| 🔵 **Info** | No direct risk, but useful for system hardening (e.g., missing security headers).                                            | *Monitor and fix in maintenance* |
-
+**Top 5 immediate actions:**
+1. Fix broken login logic and authentication flow
+2. Hash passwords securely using bcrypt or Argon2
+3. Sanitize inputs to prevent SQL injection
+4. Implement CSRF protection for all forms
+5. Set HttpOnly and Secure flags on session cookies
 
 ---
 
-# 4️⃣ Findings (filled with examples → replace)
+## 3️⃣ Severity Scale & Definitions
 
-> Fill in one row per finding. Focus on clarity and the most important issues.
-
-| ID | Severity | Finding | Description | Evidence / Proof |
-|------|-----------|----------|--------------|------------------|
-| F-01 | 🔴 High | SQL Injection in registration | Input field allows `' OR '1'='1` injection | Screenshot or sqlmap result |
-| F-02 | 🟠 Medium | Session fixation | Session ID remains unchanged after login | Burp log or response headers |
-| F-03 | 🟡 Low | Weak password policy | Accepts passwords like "12345" | Screenshot of registration success |
-
----
-
-> [!NOTE]
-> Include up to 5 findings total.   
-> Keep each description short and clear.
+| Severity Level | Description | Recommended Action |
+|----------------|-------------|--------------------|
+| 🔴 High | A serious vulnerability that can lead to full system compromise or data breach (e.g., SQL Injection, Remote Code Execution). | Immediate fix required |
+| 🟠 Medium | A significant issue that may require specific conditions or user interaction (e.g., XSS, CSRF). | Fix ASAP |
+| 🟡 Low | A minor issue or configuration weakness (e.g., server version disclosure). | Fix soon |
+| 🔵 Info | No direct risk, but useful for system hardening (e.g., missing security headers). | Monitor and fix in maintenance |
 
 ---
 
-# 5️⃣ OWASP ZAP Test Report (Attachment)
+## 4️⃣ Findings
+
+| ID   | Severity | Finding                        | Description                                           | Evidence / Proof |
+|------|----------|--------------------------------|-------------------------------------------------------|------------------|
+| F-01 | 🔴 High   | SQL Injection in registration  | Input field allows `' OR '1'='1` injection            | ZAP alert + screenshot |
+| F-02 | 🔴 High   | Broken login functionality     | Login fails even with valid credentials               | Screenshot of login page + DB query |
+| F-03 | 🔴 High   | Plaintext password storage     | Passwords stored without hashing                      | `SELECT * FROM booking_users` result |
+| F-04 | 🟠 Medium | Missing CSRF protection        | No CSRF tokens in forms                               | ZAP alert |
+| F-05 | 🟠 Medium | Missing HttpOnly flag          | Session cookie lacks HttpOnly attribute               | ZAP alert headers |
+
+---
+
+## 5️⃣ OWASP ZAP Test Report (Attachment)
 
 **Purpose:**  
-- Attach or link your OWASP ZAP scan results (Markdown format preferred).
+To identify vulnerabilities in the Booking System Phase 1 using automated scanning tools.
 
----
+**Report file:**  
+📁 `zap_report_round1.md` — attached in GitHub repository
 
-**Instructions (CMD version):**
-1. Run OWASP ZAP baseline scan:  
-   ```bash
-   zap-baseline.py -t https://example.com -r zap_report_round1.html -J zap_report.json
-   ```
-2. Export results to markdown:  
-   ```bash
-   zap-cli report -o zap_report_round1.md -f markdown
-   ```
-3. Save the report as `zap_report_round1.md` and link it below.
+**Scan details:**
+- Manual Explore + Spider + Active Scan
+- Target: `http://localhost:8000`
+- ZAP version: 2.16.1
+- Risk levels: High, Medium, Low
+- Alerts: SQL injection, missing headers, broken authentication
 
----
-> [!NOTE]
-> 📁 **Attach full report:** → `check itslearning` → **Add a link here**
-
----
