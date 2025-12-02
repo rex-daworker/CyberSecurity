@@ -40,18 +40,18 @@ Gray-box — database access via Docker, but no backend code modification.
 - No access to production logs or backend code
 
 **Setup screenshots (Part 2):**
+
 1. Docker Compose containers running (`cybersec-db-phase1-part2`, `cybersec-web-phase1-part2`)  
-    ![alt text](<Screenshot 2025-12-02 at 18.05.49-1.png>)
-   
+   ![Docker containers running](https://github.com/user-attachments/assets/T5i7ByrddsJLxrsxYiCpc.png)
 
 2. Web app running in browser at `http://localhost:8001`  
-   ![alt text](<Screenshot 2025-12-02 at 14.37.42-1.png>)
+   ![Web app in browser](https://github.com/user-attachments/assets/acd87277-3b0f-4dfb-93af-8f909ae94ac2.png)
 
 3. PostgreSQL query showing user data with bcrypt-hashed password  
-   ![alt text](<Screenshot 2025-12-02 at 17.47.08-1.png>)
+   ![PostgreSQL query](https://github.com/user-attachments/assets/7d49e694-7322-4bbe-ad60-af9794840042.png)
 
 4. Web logs showing DB connection success  
-   ![alt text](<Screenshot 2025-12-02 at 18.10.55-1.png>)
+   ![Web logs](https://github.com/user-attachments/assets/UFY3Mpx9k73TREdFc4Xde.png)
 
 ---
 
@@ -105,20 +105,19 @@ To verify whether vulnerabilities identified in Part 1 were fixed in Part 2.
 - ZAP version: 2.16.1
 - Risk levels: High, Medium, Low
 - Key alerts:
-  - ✅ SQL Injection mitigated  
-  - ❌ Absence of Anti-CSRF Tokens  
-  - ❌ Missing HttpOnly flag on cookies  
+  - SQL Injection mitigated  
+  - Absence of Anti-CSRF Tokens  
+  - Missing HttpOnly flag on cookies  
 
 **Screenshots (Part 2):**
+
 - ZAP alert for CSRF  
-  👉 *Insert screenshot of “Absence of Anti-CSRF Tokens” alert*
+  ![ZAP CSRF Alert](https://github.com/user-attachments/assets/GCcWNf2vPF6N75StRGUMe.png)
 
 - ZAP cookie alert  
-  👉 *Insert screenshot of missing HttpOnly flag*
+  ![ZAP Cookie Alert](https://github.com/user-attachments/assets/UFY3Mpx9k73TREdFc4Xde.png)
 
 **Report file:**  
 [📄 zap_report_round2.md](https://github.com/your-repo-path/zap_report_round2.md)
 
 ---
-
-
