@@ -5,7 +5,7 @@
 ## 1️⃣ Introduction
 
 **Tester(s):**  
-Name: Rex Odomero Oghenerobo
+Name: Rex Odomero Oghenerobo & Jony Ahammad
 
 **Purpose:**  
 Re-test the Booking System application after developers released Phase 1 Part 2 fixes. The goal was to verify whether the vulnerabilities reported in Part 1 were addressed.
