@@ -139,4 +139,16 @@ To verify whether vulnerabilities identified in Part 1 were fixed in Part 2.
 [📄 zap_report_round2.md](https://github.com/rex-daworker/CyberSecurity/blob/main/BookKeeping/Phase1/Part2/zap_report_round2.md)
 
 
+**Screenshots (Part 2):**
+
+- ZAP alert for CSRF  
+  ![ZAP CSRF Alert](https://github.com/rex-daworker/CyberSecurity/blob/main/BookKeeping/Phase1/Part2/screenshots/zap_csrf.png)
+
+- ZAP cookie alert  
+  ![ZAP Cookie Alert](https://github.com/rex-daworker/CyberSecurity/blob/main/BookKeeping/Phase1/Part2/screenshots/zap_cookie.png)
+
+**Report file:**  
+[📄 zap_report_round2.md](https://github.com/rex-daworker/CyberSecurity/blob/main/BookKeeping/Phase1/Part2/zap_report_round2.md)
+
+
 ---
