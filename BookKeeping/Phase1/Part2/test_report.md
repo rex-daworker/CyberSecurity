@@ -121,7 +121,7 @@ To verify whether vulnerabilities identified in Part 1 were fixed in Part 2.
   - Absence of Anti-CSRF Tokens  
   - Missing HttpOnly flag on cookies  
 
-**Zap Report (Part 2):**
+**[ZAP Report](zap_report_round2.md)**
 
 - ZAP alert for CSRF  
 <img width="1280" height="800" alt="Screenshot 2025-12-02 at 17 19 56" src="https://github.com/user-attachments/assets/8bf0c9b0-a631-4f03-ab0e-eb9c30155b71" />
