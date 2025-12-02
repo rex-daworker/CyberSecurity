@@ -42,16 +42,19 @@ Gray-box — database access via Docker, but no backend code modification.
 **Setup screenshots (Part 2):**
 
 1. Docker Compose containers running (`cybersec-db-phase1-part2`, `cybersec-web-phase1-part2`)  
-   ![Docker containers running](https://github.com/user-attachments/assets/T5i7ByrddsJLxrsxYiCpc.png)
+   <img width="1280" height="800" alt="Screenshot 2025-12-02 at 18 05 49-1" src="https://github.com/user-attachments/assets/d4ee2d08-3781-4a36-abba-4db0643f9ed4" />
+
 
 2. Web app running in browser at `http://localhost:8001`  
-   ![Web app in browser](https://github.com/user-attachments/assets/acd87277-3b0f-4dfb-93af-8f909ae94ac2.png)
+   <img width="1276" height="800" alt="Screenshot 2025-12-02 at 14 37 42" src="https://github.com/user-attachments/assets/b89249b7-0f8e-4ef1-ba92-f52648de83b2" />
+
 
 3. PostgreSQL query showing user data with bcrypt-hashed password  
    ![PostgreSQL query](https://github.com/user-attachments/assets/7d49e694-7322-4bbe-ad60-af9794840042.png)
 
 4. Web logs showing DB connection success  
-   ![Web logs](https://github.com/user-attachments/assets/UFY3Mpx9k73TREdFc4Xde.png)
+   <img width="1280" height="800" alt="Screenshot 2025-12-02 at 18 10 55-1" src="https://github.com/user-attachments/assets/3c5412c0-27d0-44b0-90ca-cb8a9bdc2eca" />
+
 
 ---
 
@@ -112,12 +115,14 @@ To verify whether vulnerabilities identified in Part 1 were fixed in Part 2.
 **Screenshots (Part 2):**
 
 - ZAP alert for CSRF  
-  ![ZAP CSRF Alert](https://github.com/user-attachments/assets/GCcWNf2vPF6N75StRGUMe.png)
+<img width="1280" height="800" alt="Screenshot 2025-12-02 at 17 19 56" src="https://github.com/user-attachments/assets/8bf0c9b0-a631-4f03-ab0e-eb9c30155b71" />
+
 
 - ZAP cookie alert  
-  ![ZAP Cookie Alert](https://github.com/user-attachments/assets/UFY3Mpx9k73TREdFc4Xde.png)
+  <img width="1280" height="800" alt="Screenshot 2025-12-02 at 17 23 12" src="https://github.com/user-attachments/assets/670da01e-7696-4b6a-91b2-da824dda1163" />
+
 
 **Report file:**  
-[📄 zap_report_round2.md](https://github.com/your-repo-path/zap_report_round2.md)
+[📄 zap_report_round2.md](https://github.com/CyberSecurity/BookKeeping/Phase1/Part2/zap_report_round2.md)
 
 ---
