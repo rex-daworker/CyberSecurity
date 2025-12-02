@@ -45,16 +45,24 @@ Gray-box — database access via Docker, but no backend code modification.
    <img width="1280" height="800" alt="Screenshot 2025-12-02 at 18 05 49-1" src="https://github.com/user-attachments/assets/d4ee2d08-3781-4a36-abba-4db0643f9ed4" />
 
 
+
+
 2. Web app running in browser at `http://localhost:8001`  
    <img width="1276" height="800" alt="Screenshot 2025-12-02 at 14 37 42" src="https://github.com/user-attachments/assets/b89249b7-0f8e-4ef1-ba92-f52648de83b2" />
+
+
 
 
 3. PostgreSQL query showing user data with bcrypt-hashed password  
    <img width="620" height="364" alt="Screenshot 2025-12-02 at 17 47 08" src="https://github.com/user-attachments/assets/a4eeb3d5-00b1-4879-aead-af0d88453743" />
 
 
+
+
 4. Web logs showing DB connection success  
    <img width="1280" height="800" alt="Screenshot 2025-12-02 at 18 10 55-1" src="https://github.com/user-attachments/assets/3c5412c0-27d0-44b0-90ca-cb8a9bdc2eca" />
+
+
 
 
 ---
@@ -113,14 +121,18 @@ To verify whether vulnerabilities identified in Part 1 were fixed in Part 2.
   - Absence of Anti-CSRF Tokens  
   - Missing HttpOnly flag on cookies  
 
-**Screenshots (Part 2):**
+**Zap Report (Part 2):**
 
 - ZAP alert for CSRF  
 <img width="1280" height="800" alt="Screenshot 2025-12-02 at 17 19 56" src="https://github.com/user-attachments/assets/8bf0c9b0-a631-4f03-ab0e-eb9c30155b71" />
 
 
+
+
 - ZAP cookie alert  
   <img width="1280" height="800" alt="Screenshot 2025-12-02 at 17 23 12" src="https://github.com/user-attachments/assets/670da01e-7696-4b6a-91b2-da824dda1163" />
+
+
 
 
 **Report file:**  
