@@ -121,11 +121,4 @@ To verify whether vulnerabilities identified in Part 1 were fixed in Part 2.
 
 ---
 
-## 6️⃣ Logbook Summary (Part 2)
 
-```markdown
-| Date       | Hours | Task         | Outcome                          |
-|------------|-------|--------------|----------------------------------|
-| 02.12.2025 | 2     | Setup & test | Registration OK, login failed    |
-| 02.12.2025 | 1     | ZAP scan     | SQLi fixed, CSRF missing         |
-| 02.12.2025 | 1     | Reporting    | Issues logged, repo updated      |
