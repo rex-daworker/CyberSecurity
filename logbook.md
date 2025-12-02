@@ -13,3 +13,6 @@
 | 18.11.2025 | 45mins | Short Lab Reflection | Reflection |
 | 01–02.12.25| 6     | Setup, testing, ZAP | Found SQLi, broken login, weak security |
 | 02.12.25   | 1     | Report & upload     | Reports finalized, pushed to GitHub
+| 02.12.2025 | 2     | Setup & test | Registration OK, login failed    |
+| 02.12.2025 | 1     | ZAP scan     | SQLi fixed, CSRF missing         |
+| 02.12.2025 | 1     | Reporting    | Issue logged, repo updated       |
