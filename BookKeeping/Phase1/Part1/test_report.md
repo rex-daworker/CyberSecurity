@@ -9,7 +9,7 @@ Name: Rex Odomero Oghenerobo
 
 **Purpose:**  
 Identify vulnerabilities in registration and authentication flows of the Booking System Phase 1 web application.
-
+ 
 **Scope:**  
 - **Tested components:**  
   - Registration and login forms  
