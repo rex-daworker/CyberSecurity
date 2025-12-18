@@ -16,3 +16,4 @@
 | 02.12.2025 | 2     | Setup & test | Registration OK, login failed    |
 | 02.12.2025 | 1     | ZAP scan     | SQLi fixed, CSRF missing         |
 | 02.12.2025 | 1     | Reporting    | Issue logged, repo updated       |
+ 
