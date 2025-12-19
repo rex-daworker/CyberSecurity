@@ -12,13 +12,13 @@ This folder contains all required documentation and evidence for Phase 4:
 Below are screenshots showing the database schema and user/reservation tables:
 
 ### 1. Schema Overview
-![Database Schema Screenshot](./screenshots/schema.png)
+![Database Schema Screenshot](./screenshot/schema.png)
 
 ### 2. booking_users Table
-![Users Table Screenshot](./screenshots/booking_users.png)
+![Users Table Screenshot](./screenshot/booking_users.png)
 
 ### 3. booking_reservations Table
-![Reservations Table Screenshot](./screenshots/booking_reservations.png)
+![Reservations Table Screenshot](./screenshot/booking_reservations.png)
 
 > 📌 Place your screenshots inside a `screenshots/` folder under `Phase4`.
 
