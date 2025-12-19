@@ -1,14 +1,27 @@
-# Cookie Policy
-**Effective Date:** December 18, 2025  
+# Cookie Policy 🍪
 
-Cookies are small files that help us remember things and improve your experience. Here’s how we use them:
+**Effective date:** December 18, 2025
 
-- **Essential cookies:** Keep the site running (like login sessions).  
-- **Preference cookies:** Remember your settings (like language or layout).  
-- **Analytics cookies:** Show us how people use the site so we can improve.  
-- **Third‑party cookies:** Sometimes tools we use (like video players or analytics) set their own cookies.  
+This Cookie Policy explains how Centria Cyber ("we", "us") uses cookies and similar technologies to recognize you when you visit our site, provide required services, remember your preferences, and collect analytics data.
 
-You’re in control — you can clear or block cookies in your browser. Just know that some parts of the site might not work as well without them.  
+## What are cookies?
+Cookies are small text files placed on your device by websites you visit. They store information about your visit so the site functions correctly.
 
-We’ll update this page if anything changes.  
-**Contact us:** `cookies@example.com`
+## Types of cookies we use
+- **Essential cookies** — Required for login, authentication, and session management. These cookies are necessary for the site to operate.
+- **Preference cookies** — Store your layout, language, and other user preferences.
+- **Analytics cookies** — Collect aggregated usage data to analyze site performance and improve services.
+- **Third-party cookies** — Cookies set by third-party services we integrate for analytics, embedded content, or third-party features. We select and manage the third-party services used on our site.
+
+## Duration
+- **Session cookies** expire when you close your browser.
+- **Persistent cookies** remain on your device for up to 30 days unless you delete them sooner.
+
+## Controlling cookies
+You can block or clear cookies using your browser settings. Blocking essential cookies will prevent login and break session functionality.
+
+## Contact
+If you have questions about this policy, contact us at [cookies@centriacyber.fi](mailto:cookies@centriacyber.fi).
+
+## Changes to this policy
+We will update this policy when we change how we use cookies. Updated policies are published here with a revised effective date.

@@ -1,13 +1,46 @@
-# Privacy Policy
-**Effective Date:** December 18, 2025  
+# Privacy Policy 🔐
 
-We care about your privacy. Here’s the simple version of how we handle your information:
+**Effective date:** December 18, 2025
 
-- **What we collect:** If you share your name or email with us, we’ll keep it. We also track basic site activity (like which pages you visit) so we can make things better.  
-- **Why we collect it:** To run the site smoothly, answer your questions, and understand how people use our content.  
-- **Who sees it:** Just us. We don’t sell or rent your info. Sometimes we use trusted tools (like analytics or hosting services), but they’re bound by strict rules.  
-- **Your choices:** You can ask us to update or delete your info anytime. You can also say “no thanks” to cookies in your browser settings.  
-- **Security:** We do our best to keep your data safe with reasonable protections.  
+This Privacy Policy describes how Centria Cyber ("we", "us") collects, uses, stores, shares, retains, and protects personal data when you use our booking system.
 
-If we ever change this policy, we’ll update the date above and let you know.  
-**Contact us:** `privacy@example.com`
+## Personal data we collect
+- **Email address** (used for account creation and notifications)
+- **Date of birth** (used for eligibility and identity verification)
+- **Role** (e.g., student, staff) to determine access and permissions
+- **Login activity** (timestamps and IP addresses for security and audit purposes)
+
+## Purpose of processing
+We process personal data to:
+- Provide and operate the booking system and reservation services
+- Authenticate and authorize users and manage sessions
+- Communicate account and reservation information
+- Detect, prevent, and investigate security incidents
+- Fulfill legal and regulatory obligations
+
+## Data access and sharing
+- **Access:** Only authorized administrators access personal data for operational needs.
+- **No sale of data:** We do not sell personal data.
+- **Third parties:** We share personal data with contracted service providers that process data on our behalf (e.g., hosting, analytics). We disclose data to law enforcement or regulators when required by law.
+
+## Security
+- Passwords are hashed using industry-standard algorithms (e.g., bcrypt).
+- We implement technical, administrative, and physical safeguards to protect personal data.
+- Personal data is stored on servers located in Finland and protected according to applicable regulations.
+
+## Retention
+- **Account and profile data** are retained for 7 years after account deletion to comply with legal and accounting obligations.
+- **Login activity and logs** are retained for 1 year for security monitoring and investigations.
+
+## Deletion and user rights
+- You can request deletion of your personal data by emailing [privacy@centriacyber.fi](mailto:privacy@centriacyber.fi) or contacting an administrator.
+- We process deletion requests within 30 days. If we are required to retain certain data for legal reasons, we will inform you and retain only the data necessary to meet those obligations.
+
+## Breach notification
+We notify affected users and relevant authorities within 72 hours of confirming a data breach that impacts personal data.
+
+## Contact
+For questions about this policy or to exercise your rights, contact us at [privacy@centriacyber.fi](mailto:privacy@centriacyber.fi).
+
+## Changes to this policy
+We will update this policy as needed and publish any revisions here with a new effective date.
