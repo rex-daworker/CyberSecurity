@@ -27,6 +27,9 @@ We process personal data to:
 - Passwords are hashed using industry-standard algorithms (e.g., bcrypt).
 - We implement technical, administrative, and physical safeguards to protect personal data.
 - Personal data is stored on servers located in Finland and protected according to applicable regulations.
+  
+- **Third-party services:** We use trusted providers (e.g., hosting, analytics). They only process data under strict GDPR-compliant agreements.
+
 
 ## Retention
 - **Account and profile data** are retained for 7 years after account deletion to comply with legal and accounting obligations.

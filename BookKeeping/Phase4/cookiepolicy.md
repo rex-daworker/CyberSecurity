@@ -9,6 +9,8 @@ Cookies are small text files placed on your device by websites you visit. They s
 
 ## Types of cookies we use
 - **Essential cookies** — Required for login, authentication, and session management. These cookies are necessary for the site to operate.
+- **Essential cookies cannot be disabled:** These are required for login and session management. Without them, the site cannot function properly.
+
 - **Preference cookies** — Store your layout, language, and other user preferences.
 - **Analytics cookies** — Collect aggregated usage data to analyze site performance and improve services.
 - **Third-party cookies** — Cookies set by third-party services we integrate for analytics, embedded content, or third-party features. We select and manage the third-party services used on our site.

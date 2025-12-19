@@ -12,6 +12,8 @@ By using the Centria Cyber booking system, you agree to the following terms.
 
 ## User content and license
 - You retain ownership of content you submit. You grant Centria Cyber a non-exclusive, worldwide, royalty-free license to host, reproduce, modify, and use your content as necessary to provide, maintain, and improve the service and to comply with legal obligations.
+- **Accuracy of information:** You are responsible for providing correct and up-to-date details (such as birthdate and reservations). False or misleading data can result in account suspension.
+
 
 ## Service availability
 - We operate the service using industry-standard security and operational practices and make commercially reasonable efforts to maintain availability. We do not guarantee uninterrupted service.
