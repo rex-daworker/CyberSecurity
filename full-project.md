@@ -129,6 +129,6 @@ Working on this project taught me how security, usability, and compliance all co
 See the logbook here: https://github.com/rex-daworker/CyberSecurity/blob/main/logbook.md
 
 
-## Feedback (Optional)
+## Feedback 
 
 This course was challenging but rewarding. The combination of PortSwigger labs and the Booking System project helped me understand both offensive and defensive security. I especially appreciated the practical approach — building, breaking, fixing, and documenting. The GDPR section also added a real-world perspective on compliance. Overall, the course improved my technical confidence and gave me a clearer understanding of cybersecurity in modern web applications.
