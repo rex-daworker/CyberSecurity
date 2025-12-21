@@ -16,4 +16,6 @@
 | 02.12.2025 | 2     | Setup & test | Registration OK, login failed    |
 | 02.12.2025 | 1     | ZAP scan     | SQLi fixed, CSRF missing         |
 | 02.12.2025 | 1     | Reporting    | Issue logged, repo updated       |
- 
+ | 21.12.2025 | 22     | Booking system Project (1-4)   | Issue logged, repo updated       |
+ | 21.12.2025 | 8     | GDPR & Documentation    | Wrote privacy policy,Terms of service and Cookie Policy       |
+ | 21.12.2025 | 4     | Final Project report    | Prepared final submission and wrote Reflections       |
