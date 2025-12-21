@@ -1,6 +1,6 @@
 # PortSwigger Labs
 
-![portswigger screenshot](./screenshots/portswigger-dashboard.png)
+![portswigger screenshot](./screenshots/portswigger-dashboard.png) 
 
 ## Authentication
 
